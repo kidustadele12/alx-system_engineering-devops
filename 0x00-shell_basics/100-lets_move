@@ -1,2 +1,3 @@
 #!/bin/bash
-find . -name '[A-Z]*' -exce  mv -t ~/tmp/u {} +
+find . -name '[A-Z]*' -exce  mv /tmp/u {} +
+find . -name '[A-Z]*' -exec  mv -t ~/tmp/u {} +
